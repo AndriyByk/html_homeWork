@@ -1,0 +1,24 @@
+.list {
+    font-style: italic;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+h1 {
+    text-align: center;
+    color: #860000;
+    background-color: #ceaee7;
+    border: 1px inset coral;
+}
+
+.textWithImage {
+    text-align: center;
+}
+body {
+    background: #ccd9ea;
+}
