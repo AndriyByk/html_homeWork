@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+h1,h2,h3 {
+    font-family: Perpetua, serif;
+}
+
+p {
+    font-family: Perpetua, sans-serif;
+}
+
+img {
+
+}
+
+.block {
+    border-left: 2px solid darkblue;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    padding-top: 6px;
+    max-width: 50%;
+    margin-right: 10%;
+    align-items: center;
+    text-align: justify;
+    border-radius: 15px;
+}
+
+#nameOfArticle {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #860000;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#author {
+    font-style: italic;
+    margin-bottom: 10px;
+    text-align: right;
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+
+#firstBlock {
+    margin-left: 5%;
+}
+#secondBlock {
+    margin-left: 15%;
+}
+#thirdBlock {
+    margin-left: 25%;
+}
+
+#fourthBlock {
+    margin-left: 35%;
+}
+
+#fifthBlock {
+    margin-left: 5%;
+}
+#sixthBlock {
+    margin-left: 15%;
+}
+#seventhBlock {
+    margin-left: 25%;
+}
+
+#eighthBlock {
+    margin-left: 35%;
+}
+
+#ninthBlock {
+    margin-left: 5%;
+}
+#tenthBlock {
+    margin-left: 15%;
+}
+#eleventhBlock {
+    margin-left: 25%;
+}
+
+#twelfthBlock {
+    margin-left: 35%;
+}
+
+#thirteenthBlock {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: none;
+}
