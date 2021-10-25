@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+.grandDad {
+    display: flex;
+    flex-direction: column;
+    background: silver;
+    flex-basis: 1000px;
+    height: 500px;
+    padding: 5px;
+}
+
+.dad {
+    display: flex;
+    background: #5892ff;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.child {
+    background: #0358f5;
+    box-sizing: border-box;
+    flex-basis: 100%;
+}
+
+.dad0 {
+    height: 25%;
+}
+
+.dad1 {
+    height: 25%;
+    justify-content: space-between;
+}
+
+.dad2 {
+    height: 50%;
+}
+
+.bigWidgets {
+    flex-basis: 32%;
+}
+
+.biggerWidgets {
+    flex-basis: 32%;
+}
+
+.hugeWidgets {
+    flex-basis: 32%;
+}
