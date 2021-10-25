@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+.grandDad {
+    display: flex;
+    flex-direction: column;
+    background: silver;
+    flex-basis: 1000px;
+    height: 500px;
+}
+
+.dad {
+    display: flex;
+    background: #5892ff;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.child {
+    background: #0358f5;
+    height: auto;
+    box-sizing: border-box;
+    margin: 5px;
+}
+.post {
+    background: #122dcb;
+    flex-basis: 100%;
+    box-sizing: border-box;
+
+}
+
+.dad0 {
+    height: 20%;
+}
+
+.dad1 {
+    height: 60%;
+}
+
+.dad2 {
+    height: 20%;
+}
+
+.child0 {
+    flex-basis: 30%;
+}
+
+.child1 {
+    flex-basis: 75%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#header {
+    flex-basis: 100%;
+    background: #122dcb;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+#menu {
+    background: #122dcb;
+    height: 100%;
+    flex-basis: 100%;
+    box-sizing: border-box;
+}
+
+#footer {
+    background: #122dcb;
+    height: auto;
+    flex-basis: 100%;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+
