@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.grandDad {
+    display: flex;
+    flex-direction: column;
+    background: silver;
+    flex-basis: 1000px;
+    height: 500px;
+}
+
+.dad {
+    display: flex;
+    background: #5892ff;
+    box-sizing: border-box;
+}
+
+.child {
+    background: #0358f5;
+    height: auto;
+    box-sizing: border-box;
+    margin: 5px;
+    flex-basis: 100%;
+}
+
+.dad0 {
+    height: 15%;
+}
+
+.dad1 {
+    height: 10%;
+}
+
+.dad2 {
+    height: 60%;
+}
+
+.dad3 {
+    height: 15%;
+}
+
+.child2 {
+    flex-basis: 75%;
+}
+
+.child3 {
+    flex-basis: 25%;
+}
