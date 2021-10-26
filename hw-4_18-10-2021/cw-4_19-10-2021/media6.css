@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    background-color: silver;
+    height: 600px;
+    padding: 5px;
+    box-sizing: border-box;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.first,
+.second,
+.third {
+    background-color: #5892ff;
+}
+
+.first {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+.home,
+.about {
+    flex-basis: 50%;
+    background-color: #0358f5;
+}
+
+.second {
+    height: 25%;
+}
+
+.third {
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+.shishkabobs,
+.bbq_kabobs,
+.summer_kabobs {
+    flex-basis: 33%;
+    background-color: darkblue;
+}
+
+
+
