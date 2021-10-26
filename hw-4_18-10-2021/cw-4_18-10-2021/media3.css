@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+.class0 {
+    display: flex;
+    background-color: silver;
+    flex-basis: 1200px;
+    height: 600px;
+    flex-direction: column;
+    padding: 5px;
+    row-gap: 5px;
+}
+
+.a , .a1 {
+    background-color: #5892ff;
+    box-sizing: border-box;
+}
+
+.a {
+    height: 33%;
+}
+
+.a1 {
+    height: 67%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+.f,.f1 {
+    background-color: #0358f5;
+}
+
+.f1 {
+    flex-basis: 75%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.f {
+    flex-basis: 25%;
+}
+
+.b,.b1 {
+    background-color: darkblue;
+    height: 50%;
+}
+
+.b1 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+.c,.d,.e {
+    flex-basis: 33%;
+    background-color: black;
+}
