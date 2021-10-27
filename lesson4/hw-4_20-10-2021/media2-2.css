@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.main {
+    flex-direction: column;
+    row-gap: 5px;
+    background: silver;
+    flex-basis: 1000px;
+    height: 500px;
+    padding: 5px;
+}
+
+.content {
+    column-gap: 5px;
+}
+
+.contact {
+    height: 50%;
+}
+
+.background-colour-blue {
+    background-color: #0358f5;
+}
+
+.background-colour-lightblue {
+    background-color: #5892ff;
+}
+
+.flex-grow-1-1 {
+    flex-grow: 1;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.border-box-sizing {
+    box-sizing: border-box;
+}
+
+.height25pct {
+    height: 25%;
+}
+

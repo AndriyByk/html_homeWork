@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+.main {
+    background: silver;
+    flex-basis: 1000px;
+    height: 500px;
+    padding: 5px;
+}
+
+.content {
+    height: 60%;
+    column-gap: 5px;
+}
+
+.content__left {
+    flex-basis: 30%;
+}
+
+.content__right {
+    flex-basis: 75%;
+}
+
+.post {
+    flex-basis: 100%;
+}
+
+.background-colour-darkblue {
+    background-color: #122dcb;
+}
+
+.background-colour-blue {
+    background-color: #0358f5;
+}
+
+.background-colour-lightblue {
+    background-color: #5892ff;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.border-box-sizing {
+    box-sizing: border-box;
+}
+
+.height20 {
+    height: 20%;
+}
+
+.column-direction {
+    flex-direction: column;
+}
+
+.row-gap-5px {
+    row-gap: 5px;
+}
