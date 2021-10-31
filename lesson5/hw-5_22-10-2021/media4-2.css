@@ -1,0 +1,27 @@
+@media screen and (max-width: 575px) {
+    .top_grid {
+        justify-content: center;
+    }
+
+    .samples_list {
+        flex-direction: column;
+    }
+
+    .model_list {
+        flex-direction: column;
+    }
+
+    .navigation_buttons {
+        display: none;
+    }
+
+    .description {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .samples_list {
+        flex-wrap: wrap;
+    }
+}
