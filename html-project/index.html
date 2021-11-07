@@ -37,6 +37,7 @@
             </div>
         </a>
     </div>
+
     <div class="top__box__right display-flex column-gap-30px">
         <div class="delivery"><a href="#">Доставка</a></div>
         <div class="payment"><a href="#">Оплата</a></div>
@@ -46,6 +47,16 @@
         <div class="about_shop"><a href="#">О магазине</a></div>
         <div class="contacts"><a href="#">Контакты</a></div>
     </div>
+
+    <div class="top__box__right__add">
+        <a href="#">
+            <div class="top__box__left__info display-flex column-gap-5px">
+                <div class="top__box__left__info__title">Еще</div>
+                <div class="top__box__left__info__icon"><img src="image/Group_.png" alt="arrow_down"></div>
+            </div>
+        </a>
+    </div>
+
 </div>
 
 <div class="header wrapper display-flex">
@@ -59,34 +70,40 @@
                 </div>
             </div>
         </div>
-        <div class="header__info-bar__working-hours display-flex align-item-center">
-            <div class="header__info-bar__working-hours__icon"><img src="image/clock.png" alt="clock"></div>
-            <div class="header__info-bar__working-hours__text roboto-font-family">Мы работаем: будни - 9:00-21:00 сб. -
-                10:00-15:00
+        <div class="header__info-bar__working-hours-location display-flex align-item-center">
+            <div class="header__info-bar__working-hours display-flex align-item-center">
+                <div class="header__info-bar__working-hours__icon"><img src="image/clock.png" alt="clock"></div>
+                <div class="header__info-bar__working-hours__text roboto-font-family">Мы работаем: будни - 9:00-21:00
+                    сб. -
+                    10:00-15:00
+                </div>
+            </div>
+            <div class="header__info-bar__location display-flex align-item-center">
+                <div class="header__info-bar__location__icon"><img src="image/placeholder_1.png" alt="geo-icon_2"></div>
+                <div class="header__info-bar__location__icon__description roboto-font-family">Невский пр-т, д. 45</div>
             </div>
         </div>
-        <div class="header__info-bar__location display-flex align-item-center">
-            <div class="header__info-bar__location__icon"><img src="image/placeholder_1.png" alt="geo-icon_2"></div>
-            <div class="header__info-bar__location__icon__description roboto-font-family">Невский пр-т, д. 45</div>
-        </div>
-        <div class="header__info-bar__whatsApp display-flex align-item-center">
-            <div class="header__info-bar__whatsApp__wrapper display-flex display-flex align-item-center">
-                <div class="header__info-bar__whatsApp__icon align-item-center display-flex"><img
-                        src="image/whatsapp.png" alt=""></div>
-                <div class="header__info-bar__whatsApp__description">Напишите нам в WhatsApp</div>
+        <div class="header__info-bar__whatsApp-number display-flex align-item-center">
+            <div class="header__info-bar__whatsApp display-flex align-item-center">
+                <div class="header__info-bar__whatsApp__wrapper display-flex display-flex align-item-center">
+                    <div class="header__info-bar__whatsApp__icon align-item-center display-flex"><img
+                            src="image/whatsapp.png" alt=""></div>
+                    <div class="header__info-bar__whatsApp__description">Напишите нам в WhatsApp</div>
+                </div>
             </div>
-        </div>
-        <div class="header__info-bar__number display-flex">
-            <div class="header__info-bar__number__digits roboto-font-family">+7 383 291 92 86</div>
-            <div class="header__info-bar__number__description roboto-font-family"><a href="#">форма обратной связи</a>
+            <div class="header__info-bar__number display-flex">
+                <div class="header__info-bar__number__digits roboto-font-family">+7 383 291 92 86</div>
+                <div class="header__info-bar__number__description roboto-font-family"><a href="#">форма обратной
+                    связи</a>
+                </div>
             </div>
         </div>
     </div>
     <div class="header__nav-bar display-flex">
         <div class="header__nav-bar__left display-flex">
-            <div class="header__nav-bar__catalog display-flex">
+            <div class="header__nav-bar__catalog display-flex align-item-center justify-content-center">
                 <a href="#">
-                    <div class="header__nav-bar__catalog__button display-flex align-item-center">
+                    <div class="header__nav-bar__catalog__button display-flex align-item-center justify-content-center">
                         <div class="header__nav-bar__catalog__lines display-flex">
                             <div></div>
                             <div></div>
@@ -97,26 +114,32 @@
                 </a>
             </div>
             <div class="header__nav-bar__input">
-                <div class="input-group mb-3">
+                <div class="input-group mb-3 justify-content-center">
                     <input type="text" class="form-control" placeholder="Поиск по наименованию или артикулу"
                            aria-label="Поиск по наименованию или артикулу" aria-describedby="basic-addon2">
-                    <span class="input-group-text roboto-font-family " id="basic-addon2">Найти</span>
+                    <a href=""><span class="input-group-text roboto-font-family " id="basic-addon2">Найти</span></a>
                 </div>
             </div>
         </div>
         <div class="header__nav-bar__right display-flex align-item-center">
             <div class="header__nav-bar__buttons display-flex align-item-center">
-                <div class="header__nav-bar__logIn align-item-center display-flex column-gap-15px">
-                    <div class="header__nav-bar__logIn__icon"><img src="image/user.png" alt="user-icon"></div>
-                    <div class="header__nav-bar__logIn__title roboto-font-family">Войти</div>
+                <div class="header__nav-bar__logIn__wrapper display-flex">
+                    <div class="header__nav-bar__logIn align-item-center display-flex column-gap-15px">
+                        <div class="header__nav-bar__logIn__icon"><img src="image/user.png" alt="user-icon"></div>
+                        <div class="header__nav-bar__logIn__title roboto-font-family">Войти</div>
+                    </div>
                 </div>
-                <div class="header__header__nav-bar__selected display-flex column-gap-15px align-item-center">
-                    <div class="header__nav-bar__selected__icon"><img src="image/heart.png" alt="heart"></div>
-                    <div class="header__nav-bar__selected__title roboto-font-family">Избранное</div>
+                <div class="header__nav-bar__selected__wrapper display-flex">
+                    <div class="header__nav-bar__selected display-flex column-gap-15px align-item-center">
+                        <div class="header__nav-bar__selected__icon"><img src="image/heart.png" alt="heart"></div>
+                        <div class="header__nav-bar__selected__title roboto-font-family">Избранное</div>
+                    </div>
                 </div>
-                <div class="header__nav-bar__basket display-flex column-gap-15px align-item-center">
-                    <div class="header__nav-bar__basket__icon"><img src="image/Group.png" alt="basket"></div>
-                    <div class="header__nav-bar__basket__title roboto-font-family">В корзине нет товаров</div>
+                <div class="header__nav-bar__basket__wrapper display-flex">
+                    <div class="header__nav-bar__basket display-flex column-gap-15px align-item-center">
+                        <div class="header__nav-bar__basket__icon"><img src="image/Group.png" alt="basket"></div>
+                        <div class="header__nav-bar__basket__title roboto-font-family">В корзине <br> нет товаров</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -129,14 +152,19 @@
                 <div class="content__discount__left__internal display-flex">
                     <div class="content__discount__left__internal__content align-item-center display-flex">
                         <div class="content__discount__left__internal__content__leftIndicator"><img
-                                src="image/left_indicator.png" alt=""></div>
+                                src="image/left_indicator.png" alt="left_indicator"></div>
                         <div class="content__discount__left__internal__content__description roboto-font-family display-flex">
                             <div class="content__discount__left__internal__content__description__title">Сцепление в
                                 сборе
                             </div>
                             <div class="content__discount__left__internal__content__description__code">0AMCLUTCH</div>
-                            <div class="content__discount__left__internal__content__description__price">14 499,99 ₽
-                                <span>18 550,99 ₽</span>
+                            <div class="content__discount__left__internal__content__description__price display-flex">
+                                <div class="content__discount__left__internal__content__description__price__new">14
+                                    499,99 ₽
+                                </div>
+                                <div class="content__discount__left__internal__content__description__price__old">18
+                                    550,99 ₽
+                                </div>
                             </div>
                             <div class="content__discount__left__internal__content__description__button display-flex align-item-center">
                                 <div class="content__discount__left__internal__content__description__button__icon"><img
@@ -152,9 +180,15 @@
                                 src="image/right_indicator.png" alt="right_indicator"></div>
                     </div>
                     <div class="content__discount__left__internal__indicators display-flex">
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <a href="">
+                            <div></div>
+                        </a>
+                        <a href="">
+                            <div></div>
+                        </a>
+                        <a href="">
+                            <div></div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -165,7 +199,7 @@
                 <div class="content__discount__right__top__content display-flex">
                     <div class="content__discount__right__top__content__picture"><img src="image/mufta.png" alt="mufta">
                     </div>
-                    <div class="content__discount__right__top__content__description">
+                    <div class="content__discount__right__top__content__description display-flex">
                         <div class="content__discount__right__top__content__description__title roboto-font-family">
                             Обгонная муфта
                             гидротрансформатор
@@ -173,22 +207,24 @@
                         <div class="content__discount__right__top__content__description__code roboto-font-family">
                             BW-SP-2 SONNAX
                         </div>
+                        <div class="content__discount__right__top__price display-flex">
+                            <div class="content__discount__right__top__price__digits roboto-font-family align-item-center display-flex">
+                                <div class="content__discount__right__top__price__digits__new">4 430₽</div>
+                                <div class="content__discount__right__top__price__digits__old">5 430₽</div>
+                            </div>
+                            <div class="content__discount__right__top__price__button display-flex align-item-center">
+                                <div><img src="image/basket_smaller.png" alt="basket_smaller"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="content__discount__right__top__price display-flex">
-                    <div class="content__discount__right__top__price__digits roboto-font-family">4 430₽
-                        <span>5 430₽</span></div>
 
-                    <div class="content__discount__right__top__price__button display-flex">
-                        <div><img src="image/basket_smaller.png" alt="basket_smaller"></div>
-                    </div>
-                </div>
             </div>
-            <div class="content__discount__right__bottom">
+            <div class="content__discount__right__bottom display-flex">
                 <div class="content__discount__right__bottom__heading roboto-font-family">Акция</div>
                 <div class="content__discount__right__bottom__content display-flex">
-                    <div class="content__discount__right__bottom__content__picture"><img src="image/discs.png"
-                                                                                         alt="discs"></div>
+                    <div class="content__discount__right__bottom__content__picture"><img src="image/discs_small.png"
+                                                                                         alt="discs_small"></div>
                     <div class="content__discount__right__bottom__content__description">
                         <div class="content__discount__right__bottom__content__description__title roboto-font-family">
                             Комплект фрикционных дисков
@@ -196,19 +232,20 @@
                         <div class="content__discount__right__bottom__content__description__code roboto-font-family">
                             BW-SP-2 SONNAX
                         </div>
-                    </div>
-                </div>
-                <div class="content__discount__right__bottom__price display-flex">
-                    <div class="content__discount__right__bottom__price__digits roboto-font-family">4 430₽
-                        <span>5 430₽</span></div>
-                    <div class="content__discount__right__bottom__price__button">
-                        <div><img src="image/basket_smaller.png" alt="basket_smaller"></div>
+                        <div class="content__discount__right__bottom__price display-flex">
+                            <div class="content__discount__right__bottom__price__digits roboto-font-family align-item-center display-flex">
+                                <div class="content__discount__right__bottom__price__digits__new">4 430₽</div>
+                                <div class="content__discount__right__bottom__price__digits__old">5 430₽</div>
+                            </div>
+                            <div class="content__discount__right__bottom__price__button align-item-center display-flex">
+                                <div><img src="image/basket_smaller.png" alt="basket_smaller"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 
     <div class="content__sections display-flex">
         <div class="content__sections__indicatorLeft"><img src="image/left_indicator.png" alt="left_indicator"></div>
@@ -224,7 +261,9 @@
                     </div>
                 </a>
             </div>
-            <div class="content__sections__oils__image"><img src="image/oil.png" alt="oil"></div>
+            <div class="content__sections__oils__imageWrapper display-flex">
+                <div class="content__sections__oils__image display-flex"><img src="image/oil.png" alt="oil"></div>
+            </div>
         </div>
         <div class="content__sections__filters display-flex">
             <div class="content__sections__filters__content display-flex">
@@ -238,7 +277,9 @@
                     </div>
                 </a>
             </div>
-            <div class="content__sections__filters__image"><img src="image/filters.png" alt="filters"></div>
+            <div class="content__sections__filters__imageWrapper display-flex">
+                <div class="content__sections__filters__image display-flex"><img src="image/filters.png" alt="filters"></div>
+            </div>
         </div>
         <div class="content__sections__radiators display-flex">
             <div class="content__sections__radiators__content display-flex">
@@ -252,8 +293,11 @@
                     </div>
                 </a>
             </div>
-            <div class="content__sections__radiators__image"><img src="image/radiators.png" alt="radiators"></div>
+            <div class="content__sections__radiators__imageWrapper display-flex">
+                <div class="content__sections__radiators__image display-flex"><img src="image/radiators.png" alt="radiators"></div>
+            </div>
         </div>
+
         <div class="content__sections__indicatorRight"><img src="image/right_indicator.png" alt="right_indicator"></div>
     </div>
 
@@ -291,6 +335,31 @@
                     </div>
                 </div>
                 <div class="content__product display-flex">
+                    <div class="content__product__picture"><img src="image/discs.png" alt="sleeve"></div>
+                    <div class="content__product__feedback display-flex align-item-center">
+                        <div class="content__product__feedback__starIcon display-flex align-item-center"><img
+                                src="image/star.png" alt="star"></div>
+                        <div class="content__product__feedback__rank roboto-font-family"> 4.5</div>
+                        <div class="content__product__feedback__responds roboto-font-family"> 10 отзывов</div>
+                    </div>
+                    <div class="content__product__title roboto-font-family">Комплект фрикционных дисков</div>
+                    <div class="content__product__price">
+                        <div class="content__product__price__full roboto-font-family">4 430₽ <span>5 430₽</span>
+                        </div>
+                    </div>
+                    <div class="content__product__buttonBar align-item-center display-flex">
+                        <div class="content__product__buttonBar__basket display-flex">
+                            <div class="content__product__buttonBar__basket__icon"><img src="image/basket_smaller.png"
+                                                                                        alt="basket"></div>
+                            <div class="content__product__buttonBar__basket__text roboto-font-family">В корзину</div>
+                        </div>
+                        <div class="content__product__buttonBar__heart"><a href="#"><img src="image/heart_blue.png"
+                                                                                         alt="heart"></a></div>
+                        <div class="content__product__buttonBar__statistics"><a href="#"><img
+                                src="image/market-fluctuation.png" alt="statistics"></a></div>
+                    </div>
+                </div>
+                <div class="content__product display-flex content__product__hidden414">
                     <div class="content__product__picture"><img src="image/sleeve.png" alt="sleeve"></div>
                     <div class="content__product__feedback display-flex align-item-center">
                         <div class="content__product__feedback__starIcon display-flex align-item-center"><img
@@ -315,33 +384,8 @@
                                 src="image/market-fluctuation.png" alt="statistics"></a></div>
                     </div>
                 </div>
-                <div class="content__product display-flex">
-                    <div class="content__product__picture"><img src="image/sleeve.png" alt="sleeve"></div>
-                    <div class="content__product__feedback display-flex align-item-center">
-                        <div class="content__product__feedback__starIcon display-flex align-item-center"><img
-                                src="image/star.png" alt="star"></div>
-                        <div class="content__product__feedback__rank roboto-font-family"> 4.5</div>
-                        <div class="content__product__feedback__responds roboto-font-family"> 10 отзывов</div>
-                    </div>
-                    <div class="content__product__title roboto-font-family">Intermediate accumelator sleeve</div>
-                    <div class="content__product__price">
-                        <div class="content__product__price__request roboto-font-family">ЦЕНА <span>по запросу</span>
-                        </div>
-                    </div>
-                    <div class="content__product__buttonBar align-item-center display-flex">
-                        <div class="content__product__buttonBar__basket display-flex">
-                            <div class="content__product__buttonBar__basket__icon"><img src="image/basket_smaller.png"
-                                                                                        alt="basket"></div>
-                            <div class="content__product__buttonBar__basket__text roboto-font-family">В корзину</div>
-                        </div>
-                        <div class="content__product__buttonBar__heart"><a href="#"><img src="image/heart_blue.png"
-                                                                                         alt="heart"></a></div>
-                        <div class="content__product__buttonBar__statistics"><a href="#"><img
-                                src="image/market-fluctuation.png" alt="statistics"></a></div>
-                    </div>
-                </div>
-                <div class="content__product display-flex">
-                    <div class="content__product__picture"><img src="image/sleeve.png" alt="sleeve"></div>
+                <div class="content__product display-flex content__product__hidden768">
+                    <div class="content__product__picture"><img src="image/details.png" alt="details"></div>
                     <div class="content__product__feedback display-flex align-item-center">
                         <div class="content__product__feedback__starIcon display-flex align-item-center"><img
                                 src="image/star.png" alt="star"></div>
@@ -396,6 +440,31 @@
                     </div>
                 </div>
                 <div class="content__product display-flex">
+                    <div class="content__product__picture"><img src="image/discs.png" alt="sleeve"></div>
+                    <div class="content__product__feedback display-flex align-item-center">
+                        <div class="content__product__feedback__starIcon display-flex align-item-center"><img
+                                src="image/star.png" alt="star"></div>
+                        <div class="content__product__feedback__rank roboto-font-family"> 4.5</div>
+                        <div class="content__product__feedback__responds roboto-font-family"> 10 отзывов</div>
+                    </div>
+                    <div class="content__product__title roboto-font-family">Комплект фрикционных дисков</div>
+                    <div class="content__product__price">
+                        <div class="content__product__price__full roboto-font-family">4 430₽ <span>5 430₽</span>
+                        </div>
+                    </div>
+                    <div class="content__product__buttonBar align-item-center display-flex">
+                        <div class="content__product__buttonBar__basket display-flex">
+                            <div class="content__product__buttonBar__basket__icon"><img src="image/basket_smaller.png"
+                                                                                        alt="basket"></div>
+                            <div class="content__product__buttonBar__basket__text roboto-font-family">В корзину</div>
+                        </div>
+                        <div class="content__product__buttonBar__heart"><a href="#"><img src="image/heart_blue.png"
+                                                                                         alt="heart"></a></div>
+                        <div class="content__product__buttonBar__statistics"><a href="#"><img
+                                src="image/market-fluctuation.png" alt="statistics"></a></div>
+                    </div>
+                </div>
+                <div class="content__product display-flex content__product__hidden414">
                     <div class="content__product__picture"><img src="image/sleeve.png" alt="sleeve"></div>
                     <div class="content__product__feedback display-flex align-item-center">
                         <div class="content__product__feedback__starIcon display-flex align-item-center"><img
@@ -420,6 +489,36 @@
                                 src="image/market-fluctuation.png" alt="statistics"></a></div>
                     </div>
                 </div>
+                <div class="content__product display-flex content__product__hidden768">
+                    <div class="content__product__picture"><img src="image/details.png" alt="details"></div>
+                    <div class="content__product__feedback display-flex align-item-center">
+                        <div class="content__product__feedback__starIcon display-flex align-item-center"><img
+                                src="image/star.png" alt="star"></div>
+                        <div class="content__product__feedback__rank roboto-font-family"> 4.5</div>
+                        <div class="content__product__feedback__responds roboto-font-family"> 10 отзывов</div>
+                    </div>
+                    <div class="content__product__title roboto-font-family">Intermediate accumelator sleeve</div>
+                    <div class="content__product__price">
+                        <div class="content__product__price__request roboto-font-family">ЦЕНА <span>по запросу</span>
+                        </div>
+                    </div>
+                    <div class="content__product__buttonBar align-item-center display-flex">
+                        <div class="content__product__buttonBar__basket display-flex">
+                            <div class="content__product__buttonBar__basket__icon"><img src="image/basket_smaller.png"
+                                                                                        alt="basket"></div>
+                            <div class="content__product__buttonBar__basket__text roboto-font-family">В корзину</div>
+                        </div>
+                        <div class="content__product__buttonBar__heart"><a href="#"><img src="image/heart_blue.png"
+                                                                                         alt="heart"></a></div>
+                        <div class="content__product__buttonBar__statistics"><a href="#"><img
+                                src="image/market-fluctuation.png" alt="statistics"></a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__products__all__frontier content__products__all__frontier2"></div>
+
+            <div class="content__products__all__middlePart display-flex">
                 <div class="content__product display-flex">
                     <div class="content__product__picture"><img src="image/sleeve.png" alt="sleeve"></div>
                     <div class="content__product__feedback display-flex align-item-center">
@@ -446,7 +545,57 @@
                     </div>
                 </div>
                 <div class="content__product display-flex">
+                    <div class="content__product__picture"><img src="image/discs.png" alt="sleeve"></div>
+                    <div class="content__product__feedback display-flex align-item-center">
+                        <div class="content__product__feedback__starIcon display-flex align-item-center"><img
+                                src="image/star.png" alt="star"></div>
+                        <div class="content__product__feedback__rank roboto-font-family"> 4.5</div>
+                        <div class="content__product__feedback__responds roboto-font-family"> 10 отзывов</div>
+                    </div>
+                    <div class="content__product__title roboto-font-family">Комплект фрикционных дисков</div>
+                    <div class="content__product__price">
+                        <div class="content__product__price__full roboto-font-family">4 430₽ <span>5 430₽</span>
+                        </div>
+                    </div>
+                    <div class="content__product__buttonBar align-item-center display-flex">
+                        <div class="content__product__buttonBar__basket display-flex">
+                            <div class="content__product__buttonBar__basket__icon"><img src="image/basket_smaller.png"
+                                                                                        alt="basket"></div>
+                            <div class="content__product__buttonBar__basket__text roboto-font-family">В корзину</div>
+                        </div>
+                        <div class="content__product__buttonBar__heart"><a href="#"><img src="image/heart_blue.png"
+                                                                                         alt="heart"></a></div>
+                        <div class="content__product__buttonBar__statistics"><a href="#"><img
+                                src="image/market-fluctuation.png" alt="statistics"></a></div>
+                    </div>
+                </div>
+                <div class="content__product display-flex content__product__hidden414">
                     <div class="content__product__picture"><img src="image/sleeve.png" alt="sleeve"></div>
+                    <div class="content__product__feedback display-flex align-item-center">
+                        <div class="content__product__feedback__starIcon display-flex align-item-center"><img
+                                src="image/star.png" alt="star"></div>
+                        <div class="content__product__feedback__rank roboto-font-family"> 4.5</div>
+                        <div class="content__product__feedback__responds roboto-font-family"> 10 отзывов</div>
+                    </div>
+                    <div class="content__product__title roboto-font-family">Intermediate accumelator sleeve</div>
+                    <div class="content__product__price">
+                        <div class="content__product__price__request roboto-font-family">ЦЕНА <span>по запросу</span>
+                        </div>
+                    </div>
+                    <div class="content__product__buttonBar align-item-center display-flex">
+                        <div class="content__product__buttonBar__basket display-flex">
+                            <div class="content__product__buttonBar__basket__icon"><img src="image/basket_smaller.png"
+                                                                                        alt="basket"></div>
+                            <div class="content__product__buttonBar__basket__text roboto-font-family">В корзину</div>
+                        </div>
+                        <div class="content__product__buttonBar__heart"><a href="#"><img src="image/heart_blue.png"
+                                                                                         alt="heart"></a></div>
+                        <div class="content__product__buttonBar__statistics"><a href="#"><img
+                                src="image/market-fluctuation.png" alt="statistics"></a></div>
+                    </div>
+                </div>
+                <div class="content__product display-flex content__product__hidden768">
+                    <div class="content__product__picture"><img src="image/details.png" alt="details"></div>
                     <div class="content__product__feedback display-flex align-item-center">
                         <div class="content__product__feedback__starIcon display-flex align-item-center"><img
                                 src="image/star.png" alt="star"></div>
@@ -478,6 +627,7 @@
             </a>
         </div>
     </div>
+
     <div class="content__news">
         <div class="content__news__title roboto-font-family">НОВОСТИ</div>
         <div class="content__news__timeArrow display-flex">
@@ -550,7 +700,7 @@
                     </div>
                 </div>
             </div>
-            <div class="content__news__article display-flex">
+            <div class="content__news__article display-flex content__news__article__hidden">
                 <div class="content__news__article__info display-flex">
                     <div class="content__news__article__info__scheme display-flex align-item-center">
                         <div class="content__news__article__info__scheme__circle"></div>
@@ -642,28 +792,37 @@
                     </div>
                 </div>
             </div>
-            <div class="footer__content__contactsAndAddress__feedback display-flex row-direction">
-                <div class="footer__content__contactsAndAddress__feedback__description roboto-font-family">Мы онлайн,
-                    воспользуйтесь
+            <div class="footer__content__contactsAndAddress__feedbackAndSubmission__wrapper display-flex">
+                <div class="footer__content__contactsAndAddress__feedback__wrapper display-flex">
+                    <div class="footer__content__contactsAndAddress__feedback display-flex row-direction">
+                        <div class="footer__content__contactsAndAddress__feedback__description roboto-font-family">Мы
+                            онлайн,
+                            воспользуйтесь
+                        </div>
+                        <div class="footer__content__contactsAndAddress__feedback__hyperlink "><a href="">Форма обратной
+                            связи</a></div>
+                    </div>
                 </div>
-                <div class="footer__content__contactsAndAddress__feedback__hyperlink "><a href="">Форма обратной
-                    связи</a></div>
-            </div>
-            <div class="footer__content__contactsAndAddress__submission roboto-font-family">Подпишитесь на нашу расслыку
-                и <br>вы первыми узнаете о скидках и акциях
-            </div>
-            <div class="footer__content__contactsAndAddress__submission__input">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control roboto-font-family" id="input-bottom" placeholder="Введите ваш email"
-                           aria-label="Поиск по наименованию или артикулу" aria-describedby="basic-addon2">
-                    <span class="input-group-text  roboto-font-family" id="basic-addon3">Подписаться</span>
+                <div class="footer__content__contactsAndAddress__submission__wrapper display-flex">
+                    <div class="footer__content__contactsAndAddress__submission roboto-font-family">Подпишитесь на нашу
+                        расслыку
+                        и <br>вы первыми узнаете о скидках и акциях
+                    </div>
+                    <div class="footer__content__contactsAndAddress__submission__input">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control roboto-font-family" id="input-bottom"
+                                   placeholder="Введите ваш email"
+                                   aria-label="Поиск по наименованию или артикулу" aria-describedby="basic-addon2">
+                            <span class="input-group-text  roboto-font-family" id="basic-addon3">Подписаться</span>
+                        </div>
+                    </div>
+                    <div class="footer__content__contactsAndAddress__socialNetworks display-flex row-direction">
+                        <div><a href=""><img src="image/Vector(1).png" alt="facebook"></a></div>
+                        <div><a href=""><img src="image/Vector(2).png" alt="telegram"></a></div>
+                        <div><a href=""><img src="image/Vector(3).png" alt="twitter"></a></div>
+                        <div><a href=""><img src="image/google-plus.png" alt="google-plus"></a></div>
+                    </div>
                 </div>
-            </div>
-            <div class="footer__content__contactsAndAddress__socialNetworks display-flex row-direction">
-                <div><a href=""><img src="image/Vector(1).png" alt="facebook"></a></div>
-                <div><a href=""><img src="image/Vector(2).png" alt="telegram"></a></div>
-                <div><a href=""><img src="image/Vector(3).png" alt="twitter"></a></div>
-                <div><a href=""><img src="image/google-plus.png" alt="google-plus"></a></div>
             </div>
         </div>
     </div>

@@ -1,0 +1,508 @@
+/*@media screen and (max-width: 768px) {*/
+
+/*}*/
+@media screen and (max-width: 1271px) {
+    .footer__content__contactsAndAddress__feedbackAndSubmission__wrapper {
+        flex-direction: row;
+    }
+}
+
+
+@media screen and (max-width: 1420px) {
+    .wrapper {
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    .footer {
+        padding-top: 36px;
+        padding-bottom: 18px;
+    }
+
+    .content__news__timeArrow div {
+        left: -20px;
+
+    }
+}
+
+
+
+@media screen and (max-width: 1360px) {
+    .wrapper {
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    .footer {
+        padding-top: 36px;
+        padding-bottom: 18px;
+    }
+
+    .top__box__right__add {
+        display: flex;
+    }
+
+    .top__box__right {
+        display: none;
+    }
+
+    .header__info-bar__working-hours-location,
+    .header__info-bar__whatsApp-number {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .header__info-bar__whatsApp-number {
+        flex-direction: column-reverse;
+    }
+
+
+    .header__nav-bar {
+        max-height: 43px;
+        column-gap: 0;
+    }
+
+    .header__nav-bar__catalog__title {
+        display: none;
+    }
+
+    .header__nav-bar__catalog__button {
+        padding: 0 11px;
+    }
+
+    .input-group span {
+        max-width: 90px;
+        min-width: 90px;
+    }
+
+    .form-control {
+        width: 74%;
+    }
+
+    .input-group span {
+        width: 25.71%;
+    }
+
+    .header__nav-bar__left {
+        column-gap: 3.42%;
+        width: 60.16%;
+    }
+
+    .header__nav-bar__right {
+        height: 100%;
+        width: 39.29%;
+    }
+
+    .header__nav-bar__buttons {
+        height: 100%;
+        justify-content: space-between;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .header__nav-bar__logIn__icon,
+    .header__nav-bar__selected__icon,
+    .header__nav-bar__basket__icon {
+        max-height: 50%;
+    }
+
+
+    .header__nav-bar__buttons img {
+        height: 100%;
+    }
+
+    .header__nav-bar__buttons div {
+        flex-direction: column;
+        row-gap: 20%;
+        text-align: center;
+        height: 100%;
+        align-content: space-between;
+    }
+
+
+
+    .content__discount__left__internal__content__leftIndicator,
+    .content__discount__left__internal__content__rightIndicator {
+        display: none;
+    }
+
+    .content__discount__left__internal__content__description__price {
+        flex-direction: column-reverse;
+    }
+
+    .content__sections__indicatorLeft,
+    .content__sections__indicatorRight {
+        display: none;
+    }
+
+    .content__sections__oils,
+    .content__sections__filters,
+    .content__sections__radiators {
+        padding-left: 20px;
+    }
+
+    .content__products__all__middlePart,
+    .content__products__all__frontier2 {
+        display: flex;
+    }
+
+    .content__product__hidden768 {
+        display: none;
+    }
+
+    .content__news__article__hidden {
+        display: none;
+    }
+
+    .content__product {
+        min-width: 225px;
+    }
+
+    .content__product__buttonBar__statistics {
+        display: none;
+    }
+
+    /*.content__news__title {*/
+    /*    margin-left: 70px;*/
+    /*}*/
+
+    .footer__content {
+        flex-wrap: wrap;
+        /*justify-content: space-evenly;*/
+        row-gap: 45px;
+    }
+
+    .footer__content__contactsAndAddress__contacts {
+        min-width: 155px;
+    }
+
+    .footer__content__contactsAndAddress__address {
+        min-width: 250px;
+    }
+    .footer__content__contactsAndAddress__feedback {
+        flex-direction: column;
+        min-width: 273px;
+    }
+
+    .footer__content__contactsAndAddress__submission__wrapper {
+        min-width: 455px;
+    }
+
+    .footer__content__contactsAndAddress__socialNetworks {
+        justify-content: flex-start;
+    }
+
+    /*Шрифти.............................*/
+
+    .top__box__left__city__title {
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .top a {
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .header__info-bar__logo__title__main {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .header__info-bar__logo__title__additional {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .header__info-bar__working-hours__text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .header__info-bar__location__icon__description {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .header__info-bar__whatsApp__wrapper {
+        min-height: 15px;
+    }
+
+    .header__info-bar__number__digits {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .content__discount__left__internal__content__description__title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .content__discount__left__internal__content__description__code {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .content__discount__left__internal__content__description__price__old {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .content__discount__left__internal__content__description__price__new {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .content__discount__left__internal__content__description__button__title {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .content__discount__right__top__heading,
+    .content__discount__right__bottom__heading {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .content__discount__right__top__content__description__title,
+    .content__discount__right__bottom__content__description__title {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .content__discount__right__top__content__description__code,
+    .content__discount__right__bottom__content__description__code {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .content__discount__right__top__price__digits__new,
+    .content__discount__right__bottom__price__digits__new {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .content__discount__right__top__price__digits__old,
+    .content__discount__right__bottom__price__digits__old {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .content__discount__right__top__price__digits,
+    .content__discount__right__bottom__price__digits {
+        flex-direction: column-reverse;
+    }
+
+    .content__discount__right > div {
+        padding: 12px;
+    }
+
+
+
+    /*.content__discount__right__top__price__button div {*/
+    /*    padding: 30.77%;*/
+    /*}*/
+
+    .content__sections__oils__content__header,
+    .content__sections__filters__content__header,
+    .content__sections__radiators__content__header {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .content__sections__oils__content__description,
+    .content__sections__filters__content__description,
+    .content__sections__radiators__content__description {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .content__sections__oils__content__button,
+    .content__sections__filters__content__button,
+    .content__sections__radiators__content__button {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .content__products__filters {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .content__product__feedback__rank,
+    .content__product__feedback__responds {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .content__product__title {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .content__product__buttonBar__basket,
+    .content__products__rest__button {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .content__news__title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .content__news__article__info__scheme__day,
+    .content__news__article__info__heading {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .content__news__article__info__text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .footer__content__catalogue__categories a,
+    .footer__content__categorizer__categories a,
+    .footer__content__information__categories a,
+    .footer__content__information__cards__heading {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .footer__content__information__cards__heading {
+        margin-top: 15px;
+    }
+
+    .footer__content__catalogue__categories,
+    .footer__content__categorizer__categories,
+    .footer__content__information__categories {
+        row-gap: 10px;
+    }
+
+    .footer__content__catalogue__title,
+    .footer__content__categorizer__title,
+    .footer__content__information__title,
+    .footer__content__contactsAndAddress__contacts__title,
+    .footer__content__contactsAndAddress__address__title {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .footer__content__contactsAndAddress__contacts__text,
+    .footer__content__contactsAndAddress__address__text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer__content__contactsAndAddress__feedback__hyperlink a {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .footer__content__contactsAndAddress__feedback__description,
+    .footer__content__contactsAndAddress__submission {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    #input-bottom,
+    .footer__content__contactsAndAddress__submission__input span,
+    .footer__signature {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 723px) {
+    .top {
+        justify-content: flex-start;
+        column-gap: 15px;
+    }
+
+    .top__box__left__city-icon {
+        display: none;
+    }
+
+    .top__box__left > a {
+        display: none;
+    }
+
+    .header__info-bar__working-hours-location {
+        display: none;
+    }
+
+    .header__info-bar {
+        justify-content: space-between;
+    }
+
+    .header__nav-bar__right {
+        display: none;
+    }
+
+    .header__nav-bar__left {
+        width: 100%;
+    }
+
+    .header__nav-bar__input {
+        width: 85.94%;
+    }
+
+    .content__discount {
+        flex-direction: column;
+    }
+
+    .content__discount__right {
+        flex-direction: row;
+    }
+
+    .content__product__hidden414 {
+        display: none;
+    }
+
+    .content__news__all {
+        flex-direction: column;
+    }
+
+    .content__news__timeArrow {
+        display: none;
+    }
+
+    .content__news__article__info__scheme {
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .content__news__article__info__scheme__circle,
+    .content__news__article__info__scheme__line {
+        display: none;
+    }
+
+    .content__news__article__hidden {
+        display: flex;
+    }
+    .content__news__article {
+        width: 100%;
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+
+    .footer__content__contactsAndAddress__description {
+        flex-direction: column;
+    }
+
+    .footer__content__contactsAndAddress__address {
+        margin-top: 25px;
+    }
+
+    .footer__content__contactsAndAddress__feedbackAndSubmission__wrapper {
+        flex-direction: column;
+    }
+}
