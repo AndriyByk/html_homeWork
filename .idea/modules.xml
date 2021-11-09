@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/html_homeWork.iml" filepath="$PROJECT_DIR$/.idea/html_homeWork.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson6/restaurant_template/.idea/restaurant_template.iml" filepath="$PROJECT_DIR$/lesson6/restaurant_template/.idea/restaurant_template.iml" />
     </modules>
   </component>
 </project>
