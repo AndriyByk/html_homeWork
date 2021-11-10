@@ -47,7 +47,7 @@ body {
 }
 
 .roboto-font-family {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     font-style: normal;
 }
 
@@ -219,6 +219,10 @@ body {
     text-align: right;
 }
 
+.header__info-bar__whatsApp__description__short {
+    display: none;
+}
+
 .header__info-bar__number {
     flex-direction: column;
     /*width: 52.69%;*/
@@ -339,6 +343,10 @@ body {
 
 .header__nav-bar__input {
     width: 76.99%;
+}
+
+#basic-addon1 {
+    display: none;
 }
 
 .header__nav-bar__buttons > div {
@@ -1134,7 +1142,7 @@ body {
 .footer__content__catalogue__categories,
 .footer__content__categorizer__categories,
 .footer__content__information__categories {
-    row-gap: 14px;
+    column-gap: 14px;
 }
 
 .footer__content__catalogue__title,

@@ -243,10 +243,6 @@
         min-width: 232px;
     }
 
-    .content__product__picture {
-        max-height: 244px;
-    }
-
     .content__product__picture img {
         /*width: 100%;*/
         min-height: 213px;
@@ -554,7 +550,7 @@
     .footer__content__catalogue__categories,
     .footer__content__categorizer__categories,
     .footer__content__information__categories {
-        row-gap: 10px;
+        row-gap: 3px;
     }
 
     .footer__content__catalogue__title,
@@ -592,6 +588,12 @@
 }
 
 @media screen and (max-width: 723px) {
+    .wrapper {
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+
     .top {
         justify-content: flex-start;
         column-gap: 15px;
@@ -605,12 +607,78 @@
         display: none;
     }
 
-    .header__info-bar__working-hours-location {
-        display: none;
+    .header {
+        row-gap: 15px;
+        height: 145px;
     }
 
     .header__info-bar {
         justify-content: space-between;
+    }
+
+    .header__info-bar__logo {
+        min-width: 48%;
+    }
+
+    .header__info-bar__working-hours-location {
+        display: none;
+    }
+
+    .header__info-bar__whatsApp-number {
+        min-width: 45%;
+    }
+
+    .header__info-bar__whatsApp__description__short {
+        display: flex;
+        font-family: Rubik, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: right;
+    }
+
+    .header__info-bar__whatsApp__wrapper {
+        justify-content: center;
+        width: 135px;
+        height: 18px;
+    }
+
+    .header__info-bar__whatsApp {
+        height: 18px;
+        min-width: 135px;
+    }
+
+    .header__nav-bar__left {
+        height: 34px;
+    }
+
+    .header__nav-bar__catalog__button {
+        width: 34px;
+    }
+
+
+    .header__nav-bar__catalog__lines {
+        row-gap: 4px;
+
+    }
+
+    .header__nav-bar__catalog__lines div {
+        width: 20px;
+        height: 2px;
+        row-gap: 4px;
+    }
+
+    #basic-addon2 {
+        display: none;
+    }
+
+    #basic-addon1 {
+        display: flex;
+    }
+
+    .header__info-bar__whatsApp__description {
+        display: none;
     }
 
     .header__nav-bar__right {
@@ -622,17 +690,37 @@
     }
 
     .header__nav-bar__input {
-        width: 85.94%;
+        min-width: 93%;
+    }
+
+    .input-group span {
+        min-width: 34px;
     }
 
     .content__discount {
         flex-direction: column;
         row-gap: 10px;
+        margin-top: 15px;
     }
 
     .content__discount__left {
         width: 100%;
-        height: 314px;
+        /*height: 314px;*/
+        height: 195px;
+
+    }
+    .content__discount__left__internal__content {
+        min-height: 165px;
+    }
+
+    .content__discount__left__image > img {
+        min-height: 195px;
+    }
+
+    .content__discount__left__internal__content__description__button {
+        padding: 6px 23px;
+        column-gap: 8px;
+        max-width: 124px;
     }
 
     .content__discount__right {
@@ -641,28 +729,82 @@
         column-gap: 10px;
     }
 
+    .content__discount__right > div {
+        min-height: 145px;
+        min-width: 250px;
+    }
+
+    .content__discount__right__bottom__price__digits,
+    .content__discount__right__top__price__digits {
+        flex-direction: row;
+    }
+
     .content__products__filters {
         column-gap: 10px;
+    }
+    .content__products__filters > div {
+        padding: 10px 20px;
+    }
+
+    .content__products__filters__collections {
+        min-width: 164px;
+    }
+
+    .content__products__filters__sale {
+        min-width: 82px;
+    }
+
+    .content__products__filters__popular {
+        min-width: 156px;
+    }
+
+    .content__product {
+        min-width: 49%;
+    }
+
+    .content__product__picture {
+        width: 100%;
+    }
+
+    .content__product__picture img {
+        width: 80%;
+        min-height: 127px;
+        /*max-width: 270px;*/
+        /*height: initial;*/
+    }
+
+    .content__product__feedback {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+
+    .content__product__price {
+        height: 60px;
+    }
+
+    .content__product__buttonBar {
+        column-gap: 10px;
+    }
+
+    .content__product__buttonBar__basket {
+        padding: 10px 17px;
+        min-width: unset;
+        min-height: unset;;
+    }
+
+    .content__product__buttonBar__basket__icon img {
+        height: 12px;
+        width: 12px;
+    }
+
+    .content__products__rest__button {
+        padding: 10px 40px;
     }
 
     .content__sections {
         padding-top: 20px;
         padding-bottom: 30px;
-    }
-
-    .content__products__filters__collections {
-        max-width: 164px;
-        max-height: 36px;
-    }
-
-    .content__products__filters__sale {
-        max-width: 82px;
-        max-height: 36px;
-    }
-
-    .content__products__filters__popular {
-        max-height: 36px;
-        max-width: 156px;
     }
 
 
@@ -691,12 +833,36 @@
     .content__news__article__hidden {
         display: flex;
     }
+
     .content__news__article {
         width: 100%;
     }
 
+    .content__news__article__info__heading {
+        padding: 8px 0;
+    }
+
+    .content__news__article__info__scheme {
+        justify-content: end;
+        height: 40px;
+    }
+
+    .footer {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
     .footer__content {
         flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .footer__content__catalogue__title,
+    .footer__content__categorizer__title,
+    .footer__content__information__title,
+    .footer__content__contactsAndAddress__contacts__title,
+    .footer__content__contactsAndAddress__address__title {
+        margin-bottom: 4px;
     }
 
     .footer__content__contactsAndAddress__description {
@@ -711,7 +877,274 @@
         flex-direction: column;
     }
 
-    @media screen and (max-width: 400px) {
-
+    .footer__content__information__cards__icons img {
+        height: 35px;
+        width: 89px;
     }
+
+    .mb-3 {
+        width: 290px;
+    }
+
+    #input-bottom, #basic-addon3 {
+        height: 34px;
+    }
+
+    #input-bottom {
+        min-width: 186px;
+    }
+
+    #basic-addon3 {
+        min-width: 104px;
+    }
+
+    .footer__content__contactsAndAddress__socialNetworks {
+        column-gap: 40px;
+    }
+
+
+    .footer__signature {
+        margin-top: 38px;
+    }
+
+
+
+    /*Шрифти...................................*/
+    .top__box__left__city__title {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .top__box__left__info__title {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .header__info-bar__logo__title__main {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .header__info-bar__logo__title__additional {
+        font-size: 8px;
+        line-height: 9px;
+    }
+
+    .header__info-bar__number__digits {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .header__info-bar__number__description a {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .content__discount__left__internal__content__description__title {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .content__discount__left__internal__content__description__code {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .content__discount__left__internal__content__description__price__old {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .content__discount__left__internal__content__description__price__new {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .content__discount__left__internal__content__description__button__title {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .content__discount__left__internal__content__description__button__icon {
+        width: 12px;
+    }
+
+    .content__discount__left__internal__content__description__button__icon img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content__discount__right__top__heading,
+    .content__discount__right__bottom__heading {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .content__discount__right__top__content__description__title,
+    .content__discount__right__bottom__content__description__title {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .content__discount__right__top__content__description__code,
+    .content__discount__right__bottom__content__description__code {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .content__discount__right__bottom__price__digits__new,
+    .content__discount__right__top__price__digits__new {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .content__discount__right__top__price__digits__old,
+    .content__discount__right__bottom__price__digits__old {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .content__sections__oils__content__header,
+    .content__sections__filters__content__header,
+    .content__sections__radiators__content__header {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .content__sections__oils__content__description,
+    .content__sections__filters__content__description,
+    .content__sections__radiators__content__description {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .content__sections__oils__content__button,
+    .content__sections__filters__content__button,
+    .content__sections__radiators__content__button {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .content__products__filters {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .content__product__feedback__rank {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .content__product__feedback__responds {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .content__product__title {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .content__product__price__request,
+    .content__product__price__request span {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .content__product__price__full {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .content__product__price__full span {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .content__product__buttonBar__basket__text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .content__products__rest__button {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .content__news__title {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .content__news__article__info__scheme__day {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .content__news__article__info__heading {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .content__news__article__info__text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .footer__content__catalogue__title,
+    .footer__content__categorizer__title,
+    .footer__content__information__title,
+    .footer__content__contactsAndAddress__contacts__title,
+    .footer__content__contactsAndAddress__address__title {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer__content__catalogue__categories a,
+    .footer__content__categorizer__categories a,
+    .footer__content__information__categories a {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .footer__content__contactsAndAddress__contacts__text,
+    .footer__content__contactsAndAddress__address__text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .footer__content__contactsAndAddress__feedback__description {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer__content__contactsAndAddress__feedback__hyperlink a {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .footer__content__contactsAndAddress__submission {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #input-bottom {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    #basic-addon3 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .footer__signature {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+
+    /*Шрифти........................*/
+
 }
