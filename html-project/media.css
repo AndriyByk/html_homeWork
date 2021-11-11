@@ -1,7 +1,8 @@
-@media screen and (max-width: 1271px) {
+@media screen and (max-width: 1250px) {
     .footer__content__contactsAndAddress__feedbackAndSubmission__wrapper {
         flex-direction: row;
     }
+
 }
 
 @media screen and (max-width: 1420px) {
@@ -20,7 +21,8 @@
     }
 }
 
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 1400px) {
+/*@media screen and (max-width: 1360px) {*/
     .wrapper {
         padding: 0 20px;
         margin: 0 auto;
@@ -42,11 +44,10 @@
     .header__info-bar {
         padding-top: 15px;
     }
+
     .header__info-bar__logo {
-        /*width: 27.47%;*/
         min-width: 27.47%;
         max-width: 30%;
-
     }
 
     .header__info-bar__logo__icon {
@@ -60,8 +61,6 @@
     .header__info-bar__logo__title {
         width: 69.86%;
     }
-
-
 
     .header__info-bar__working-hours {
         column-gap: 8px;
@@ -84,12 +83,7 @@
     .header__info-bar__location__icon,
     .header__info-bar__working-hours__icon {
         width: 9.35%;
-        /*min-width: 20px;*/
         align-items: start;
-    }
-
-    .header__info-bar__location__icon {
-        /*max-width: 20px;*/
     }
 
     .header__info-bar__working-hours__icon div {
@@ -176,8 +170,6 @@
         align-content: space-between;
     }
 
-
-
     .content__discount__left__internal__content__leftIndicator,
     .content__discount__left__internal__content__rightIndicator {
         display: none;
@@ -185,6 +177,64 @@
 
     .content__discount__left__internal__content__description__price {
         flex-direction: column-reverse;
+    }
+
+    .content__discount__left {
+        width: 65.8%;
+    }
+
+    .content__discount__left__image > img {
+        max-height: 314px;
+    }
+
+    .content__discount__right {
+        width: 32.83%;
+    }
+
+    .content__discount__left__internal__content__description {
+        min-width: 49.5%;
+        margin-left: 4.17%;
+    }
+
+    .content__discount__left__internal__content__picture {
+        min-width: 46.35%;
+    }
+
+    .content__discount__right > div {
+        padding: 12px;
+        min-height: 152px;
+    }
+
+    .content__discount__right__top__content,
+    .content__discount__right__bottom__content {
+        column-gap: 2.9%;
+    }
+
+    .content__discount__right__top__content__description,
+    .content__discount__right__bottom__content__description {
+        width: 65%;
+    }
+
+    .content__discount__right__top__price,
+    .content__discount__right__bottom__price {
+        flex-direction: row;
+        margin-top: 10px;
+    }
+
+    .content__discount__right__top__price__digits,
+    .content__discount__right__bottom__price__digits {
+        flex-direction: column-reverse;
+        align-items: start;
+    }
+
+    .content__sections {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .content__discount__right__top__price__button,
+    .content__discount__right__bottom__price__button {
+        width: 33%;
     }
 
     .content__sections__indicatorLeft,
@@ -233,30 +283,23 @@
         margin: 30px 0;
     }
 
+    .content__product {
+        min-width: 232px;
+    }
+
     .content__product__hidden768 {
         display: none;
     }
 
-    .content__news__article__hidden {
-        display: none;
-    }
-
-    .content__product {
-        /*width: 32%;*/
-        /*min-width: 225px;*/
-        min-width: 232px;
-    }
-
     .content__product__picture img {
-        /*width: 100%;*/
         min-height: 213px;
         max-width: 270px;
-        /*height: initial;*/
     }
 
     .content__product__buttonBar__statistics {
         display: none;
     }
+
     .content__product__buttonBar__basket {
         min-width: 191px;
         min-height: 46px;
@@ -265,17 +308,25 @@
 
     .content__news__article__info__scheme__day {
         min-height: 20px;
-
     }
 
-    /*.content__news__title {*/
-    /*    margin-left: 70px;*/
-    /*}*/
+    .content__news__article__hidden {
+        display: none;
+    }
 
     .footer__content {
         flex-wrap: wrap;
-        /*justify-content: space-evenly;*/
         row-gap: 45px;
+    }
+
+    .footer__content__catalogue__categories,
+    .footer__content__categorizer__categories,
+    .footer__content__information__categories {
+        row-gap: 3px;
+    }
+
+    .footer__content__information__cards__heading {
+        margin-top: 15px;
     }
 
     .footer__content__contactsAndAddress__contacts {
@@ -283,15 +334,19 @@
     }
 
     .footer__content__contactsAndAddress__address {
-        min-width: 250px;
+        min-width: 220px;
+        /*min-width: 250px;*/
+
     }
+
     .footer__content__contactsAndAddress__feedback {
         flex-direction: column;
         min-width: 273px;
     }
 
     .footer__content__contactsAndAddress__submission__wrapper {
-        min-width: 455px;
+        /*min-width: 455px;*/
+        min-width: 100%;
     }
 
     .footer__content__contactsAndAddress__socialNetworks {
@@ -301,19 +356,6 @@
     /*Шрифти.............................*/
 
     .top__box__left__city__title {
-        color: #ffffff;
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 13px;
-        line-height: 15px;
-    }
-
-    .top a {
-        color: #ffffff;
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 500;
         font-size: 13px;
         line-height: 15px;
     }
@@ -351,50 +393,6 @@
         line-height: 17px;
     }
 
-    .content__discount__left {
-        width: 65.8%;
-    }
-
-    .content__discount__left__image > img {
-        max-height: 314px;
-    }
-
-    .content__discount__right {
-        width: 32.83%;
-    }
-
-    .content__discount__left__internal__content__description {
-        min-width: 49.5%;
-        margin-left: 4.17%;
-    }
-
-    .content__discount__left__internal__content__picture {
-        min-width: 46.35%;
-    }
-
-    .content__discount__right > div {
-        padding: 12px;
-        min-height: 152px;
-    }
-
-    .content__discount__right__top__price,
-    .content__discount__right__bottom__price {
-        flex-direction: row;
-        margin-top: 10px;
-    }
-
-    .content__discount__right__top__price__digits,
-    .content__discount__right__bottom__price__digits {
-        align-items: start;
-    }
-
-    .content__discount__right__top__price__button,
-    .content__discount__right__bottom__price__button {
-        width: 33%;
-    }
-
-
-
     .content__discount__left__internal__content__description__title {
         font-size: 26px;
         line-height: 30px;
@@ -415,7 +413,9 @@
         line-height: 35px;
     }
 
-    .content__discount__left__internal__content__description__button__title {
+    .content__discount__left__internal__content__description__button__title,
+    .content__discount__right__top__price__digits__old,
+    .content__discount__right__bottom__price__digits__old {
         font-size: 14px;
         line-height: 16px;
     }
@@ -424,16 +424,6 @@
     .content__discount__right__bottom__heading {
         font-size: 12px;
         line-height: 14px;
-    }
-
-    .content__discount__right__top__content,
-    .content__discount__right__bottom__content {
-        column-gap: 2.9%;
-    }
-
-    .content__discount__right__top__content__description,
-    .content__discount__right__bottom__content__description {
-        width: 65%;
     }
 
     .content__discount__right__top__content__description__title,
@@ -454,34 +444,13 @@
         line-height: 21px;
     }
 
-    .content__discount__right__top__price__digits__old,
-    .content__discount__right__bottom__price__digits__old {
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    .content__discount__right__top__price__digits,
-    .content__discount__right__bottom__price__digits {
-        flex-direction: column-reverse;
-    }
-
-
-
-    /*.content__discount__right__top__price__button div {*/
-    /*    padding: 30.77%;*/
-    /*}*/
-
-    .content__sections {
-        padding-top: 30px;
-        padding-bottom: 50px;
-    }
-
     .content__sections__oils__content__header,
     .content__sections__filters__content__header,
     .content__sections__radiators__content__header {
         font-size: 18px;
         line-height: 21px;
     }
+
     .content__sections__oils__content__description,
     .content__sections__filters__content__description,
     .content__sections__radiators__content__description {
@@ -491,7 +460,13 @@
 
     .content__sections__oils__content__button,
     .content__sections__filters__content__button,
-    .content__sections__radiators__content__button {
+    .content__sections__radiators__content__button,
+    .content__product__feedback__rank,
+    .content__product__feedback__responds,
+    .footer__content__catalogue__categories a,
+    .footer__content__categorizer__categories a,
+    .footer__content__information__categories a,
+    .footer__content__information__cards__heading {
         font-size: 13px;
         line-height: 15px;
     }
@@ -507,19 +482,20 @@
         justify-content: space-evenly;
     }
 
-    .content__product__feedback__rank,
-    .content__product__feedback__responds {
-        font-size: 13px;
-        line-height: 15px;
-    }
-
     .content__product__title {
         font-size: 15px;
         line-height: 18px;
     }
 
     .content__product__buttonBar__basket,
-    .content__products__rest__button {
+    .content__products__rest__button,
+    .content__news__article__info__scheme__day,
+    .content__news__article__info__heading,
+    .footer__content__contactsAndAddress__contacts__text,
+    .footer__content__contactsAndAddress__address__text,
+    #input-bottom,
+    .footer__content__contactsAndAddress__submission__input span,
+    .footer__signature {
         font-size: 14px;
         line-height: 16px;
     }
@@ -529,85 +505,59 @@
         line-height: 21px;
     }
 
-    .content__news__article__info__scheme__day,
-    .content__news__article__info__heading {
-        font-size: 14px;
-        line-height: 16px;
-    }
-
     .content__news__article__info__text {
         font-size: 14px;
         line-height: 22px;
-    }
-    .footer__content__catalogue__categories a,
-    .footer__content__categorizer__categories a,
-    .footer__content__information__categories a,
-    .footer__content__information__cards__heading {
-        font-size: 13px;
-        line-height: 15px;
-    }
-
-    .footer__content__information__cards__heading {
-        margin-top: 15px;
-    }
-
-    .footer__content__catalogue__categories,
-    .footer__content__categorizer__categories,
-    .footer__content__information__categories {
-        row-gap: 3px;
     }
 
     .footer__content__catalogue__title,
     .footer__content__categorizer__title,
     .footer__content__information__title,
     .footer__content__contactsAndAddress__contacts__title,
-    .footer__content__contactsAndAddress__address__title {
-        font-size: 16px;
-        line-height: 19px;
-    }
-
-    .footer__content__contactsAndAddress__contacts__text,
-    .footer__content__contactsAndAddress__address__text {
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    .footer__content__contactsAndAddress__feedback__hyperlink a {
-        font-size: 16px;
-        line-height: 19px;
-    }
-
+    .footer__content__contactsAndAddress__address__title,
+    .footer__content__contactsAndAddress__feedback__hyperlink a,
     .footer__content__contactsAndAddress__feedback__description,
     .footer__content__contactsAndAddress__submission {
         font-size: 16px;
         line-height: 19px;
     }
+}
 
-    #input-bottom,
-    .footer__content__contactsAndAddress__submission__input span,
-    .footer__signature {
-        font-size: 14px;
-        line-height: 16px;
+@media screen and (max-width: 1235px) {
+    .footer__content__contactsAndAddress__submission__wrapper {
+        min-width: 440px;
+        /*min-width: 100%;*/
+    }
+    .content__news__timeArrow div {
+        left: -30px;
     }
 }
 
-@media screen and (max-width: 723px) {
+@media screen and (max-width: 750px) {
     .wrapper {
         padding: 0 15px;
         margin: 0 auto;
     }
 
+    .footer__content__contactsAndAddress__submission__wrapper {
+        min-width: 350px;
+    }
 
     .top {
         justify-content: flex-start;
         column-gap: 15px;
     }
 
-    .top__box__left__city-icon {
-        display: none;
-    }
-
-    .top__box__left > a {
+    .top__box__left__city-icon,
+    .top__box__left > a,
+    .header__info-bar__working-hours-location,
+    #basic-addon2,
+    .header__info-bar__whatsApp__description,
+    .header__nav-bar__right,
+    .content__product__hidden414,
+    .content__news__timeArrow,
+    .content__news__article__info__scheme__circle,
+    .content__news__article__info__scheme__line {
         display: none;
     }
 
@@ -622,10 +572,6 @@
 
     .header__info-bar__logo {
         min-width: 48%;
-    }
-
-    .header__info-bar__working-hours-location {
-        display: none;
     }
 
     .header__info-bar__whatsApp-number {
@@ -661,15 +607,13 @@
         width: 34px;
     }
 
-
     .header__nav-bar__catalog {
         row-gap: 4px;
         border-radius: 4px;
-
     }
+
     .header__nav-bar__catalog__lines {
         row-gap: 4px;
-
     }
 
     .header__nav-bar__catalog__lines div {
@@ -678,28 +622,17 @@
         row-gap: 4px;
     }
 
-    #basic-addon2 {
-        display: none;
-    }
-
     #basic-addon1 {
         display: flex;
     }
 
-    .header__info-bar__whatsApp__description {
-        display: none;
-    }
-
-    .header__nav-bar__right {
-        display: none;
-    }
-
-    .header__nav-bar__left {
+    .header__nav-bar__left,
+    .content__product__picture {
         width: 100%;
     }
 
     .header__nav-bar__input {
-        min-width: 93%;
+        /*min-width: 93%;*/
     }
 
     .input-group span {
@@ -714,10 +647,9 @@
 
     .content__discount__left {
         width: 100%;
-        /*height: 314px;*/
         height: 195px;
-
     }
+
     .content__discount__left__internal__content {
         min-height: 165px;
     }
@@ -751,6 +683,7 @@
     .content__products__filters {
         column-gap: 10px;
     }
+
     .content__products__filters > div {
         padding: 10px 20px;
     }
@@ -771,22 +704,15 @@
         min-width: 49%;
     }
 
-    .content__product__picture {
-        width: 100%;
-    }
-
     .content__product__picture img {
         width: 80%;
         min-height: 127px;
-        /*max-width: 270px;*/
-        /*height: initial;*/
     }
 
     .content__product__feedback {
         margin-top: 0;
         margin-bottom: 5px;
     }
-
 
     .content__product__price {
         height: 60px;
@@ -827,10 +753,6 @@
         min-width: 250px;
     }
 
-    .content__product__hidden414 {
-        display: none;
-    }
-
     .content__products__all__frontier {
         margin: 25px 0;
     }
@@ -839,18 +761,9 @@
         flex-direction: column;
     }
 
-    .content__news__timeArrow {
-        display: none;
-    }
-
     .content__news__article__info__scheme {
         justify-content: center;
         align-items: flex-start;
-    }
-
-    .content__news__article__info__scheme__circle,
-    .content__news__article__info__scheme__line {
-        display: none;
     }
 
     .content__news__article__hidden {
@@ -925,25 +838,39 @@
         column-gap: 40px;
     }
 
-
     .footer__signature {
         margin-top: 38px;
     }
 
-
-
     /*Шрифти...................................*/
-    .top__box__left__city__title {
+    .top__box__left__city__title,
+    .top__box__left__info__title,
+    .content__discount__left__internal__content__description__button__title,
+    .content__discount__right__top__heading,
+    .content__discount__right__bottom__heading,
+    .content__discount__right__top__price__digits__old,
+    .content__discount__right__bottom__price__digits__old,
+    .content__sections__oils__content__button,
+    .content__sections__filters__content__button,
+    .content__sections__radiators__content__button,
+    .content__product__price__request,
+    .content__product__price__request span,
+    .content__product__buttonBar__basket__text,
+    .content__products__rest__button,
+    .footer__content__catalogue__categories a,
+    .footer__content__categorizer__categories a,
+    .footer__content__information__categories a,
+    .footer__content__contactsAndAddress__contacts__text,
+    .footer__content__contactsAndAddress__address__text,
+    #input-bottom,
+    #basic-addon3,
+    .footer__signature {
         font-size: 12px;
         line-height: 14px;
     }
 
-    .top__box__left__info__title {
-        font-size: 12px;
-        line-height: 14px;
-    }
-
-    .header__info-bar__logo__title__main {
+    .header__info-bar__logo__title__main,
+    .content__news__article__info__heading {
         font-size: 14px;
         line-height: 18px;
     }
@@ -953,39 +880,40 @@
         line-height: 9px;
     }
 
-    .header__info-bar__number__digits {
+    .header__info-bar__number__digits,
+    .content__discount__left__internal__content__description__price__old,
+    .content__discount__right__bottom__price__digits__new,
+    .content__discount__right__top__price__digits__new,
+    .content__products__filters,
+    .content__product__price__full {
         font-size: 14px;
         line-height: 16px;
     }
 
-    .header__info-bar__number__description a {
+    .header__info-bar__number__description a,
+    .content__discount__left__internal__content__description__code,
+    .content__discount__right__top__content__description__code,
+    .content__discount__right__bottom__content__description__code,
+    .content__product__feedback__rank,
+    .content__product__feedback__responds,
+    .content__product__price__full span,
+    .content__news__article__info__scheme__day {
         font-size: 10px;
         line-height: 12px;
     }
 
-    .content__discount__left__internal__content__description__title {
+    .content__discount__left__internal__content__description__title,
+    .content__sections__oils__content__header,
+    .content__sections__filters__content__header,
+    .content__sections__radiators__content__header,
+    .content__news__title {
         font-size: 16px;
         line-height: 19px;
-    }
-
-    .content__discount__left__internal__content__description__code {
-        font-size: 10px;
-        line-height: 12px;
-    }
-
-    .content__discount__left__internal__content__description__price__old {
-        font-size: 14px;
-        line-height: 16px;
     }
 
     .content__discount__left__internal__content__description__price__new {
         font-size: 20px;
         line-height: 23px;
-    }
-
-    .content__discount__left__internal__content__description__button__title {
-        font-size: 12px;
-        line-height: 14px;
     }
 
     .content__discount__left__internal__content__description__button__icon {
@@ -997,41 +925,10 @@
         height: 100%;
     }
 
-    .content__discount__right__top__heading,
-    .content__discount__right__bottom__heading {
-        font-size: 12px;
-        line-height: 14px;
-    }
-
     .content__discount__right__top__content__description__title,
     .content__discount__right__bottom__content__description__title {
         font-size: 12px;
         line-height: 18px;
-    }
-
-    .content__discount__right__top__content__description__code,
-    .content__discount__right__bottom__content__description__code {
-        font-size: 10px;
-        line-height: 12px;
-    }
-
-    .content__discount__right__bottom__price__digits__new,
-    .content__discount__right__top__price__digits__new {
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    .content__discount__right__top__price__digits__old,
-    .content__discount__right__bottom__price__digits__old {
-        font-size: 12px;
-        line-height: 14px;
-    }
-
-    .content__sections__oils__content__header,
-    .content__sections__filters__content__header,
-    .content__sections__radiators__content__header {
-        font-size: 16px;
-        line-height: 19px;
     }
 
     .content__sections__oils__content__description,
@@ -1040,71 +937,10 @@
         font-size: 10px;
         line-height: 14px;
     }
-    .content__sections__oils__content__button,
-    .content__sections__filters__content__button,
-    .content__sections__radiators__content__button {
-        font-size: 12px;
-        line-height: 14px;
-    }
-
-    .content__products__filters {
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    .content__product__feedback__rank {
-        font-size: 10px;
-        line-height: 12px;
-    }
-
-    .content__product__feedback__responds {
-        font-size: 10px;
-        line-height: 12px;
-    }
 
     .content__product__title {
         font-size: 12px;
         line-height: 17px;
-    }
-
-    .content__product__price__request,
-    .content__product__price__request span {
-        font-size: 12px;
-        line-height: 14px;
-    }
-
-    .content__product__price__full {
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    .content__product__price__full span {
-        font-size: 10px;
-        line-height: 12px;
-    }
-
-    .content__product__buttonBar__basket__text {
-        font-size: 12px;
-        line-height: 14px;
-    }
-
-    .content__products__rest__button {
-        font-size: 12px;
-        line-height: 14px;
-    }
-
-    .content__news__title {
-        font-size: 16px;
-        line-height: 19px;
-    }
-
-    .content__news__article__info__scheme__day {
-        font-size: 10px;
-        line-height: 12px;
-    }
-    .content__news__article__info__heading {
-        font-size: 14px;
-        line-height: 18px;
     }
 
     .content__news__article__info__text {
@@ -1116,25 +952,9 @@
     .footer__content__categorizer__title,
     .footer__content__information__title,
     .footer__content__contactsAndAddress__contacts__title,
-    .footer__content__contactsAndAddress__address__title {
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    .footer__content__catalogue__categories a,
-    .footer__content__categorizer__categories a,
-    .footer__content__information__categories a {
-        font-size: 12px;
-        line-height: 14px;
-    }
-
-    .footer__content__contactsAndAddress__contacts__text,
-    .footer__content__contactsAndAddress__address__text {
-        font-size: 12px;
-        line-height: 14px;
-    }
-
-    .footer__content__contactsAndAddress__feedback__description {
+    .footer__content__contactsAndAddress__address__title,
+    .footer__content__contactsAndAddress__feedback__description,
+    .footer__content__contactsAndAddress__submission {
         font-size: 14px;
         line-height: 16px;
     }
@@ -1143,31 +963,15 @@
         font-size: 13px;
         line-height: 15px;
     }
-
-    .footer__content__contactsAndAddress__submission {
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    #input-bottom {
-        font-size: 12px;
-        line-height: 14px;
-    }
-
-    #basic-addon3 {
-        font-size: 12px;
-        line-height: 14px;
-    }
-
-    .footer__signature {
-        font-size: 12px;
-        line-height: 14px;
-    }
 }
 
 @media screen and (max-width: 400px) {
     .header__nav-bar__left {
         column-gap: 20px;
+    }
+
+    .footer__content__contactsAndAddress__submission__wrapper {
+        min-width: 290px;
     }
 
     .header__nav-bar__input__class {
@@ -1182,10 +986,6 @@
         column-gap: 3.21%;
     }
 
-    .content__product__picture {
-
-    }
-
     .content__product {
         min-width: 49%;
     }
@@ -1196,10 +996,7 @@
 
     .content__product__picture img {
         width: 100%;
-        /*width: unset;*/
         min-height: 127px;
-        /*max-width: 270px;*/
-        /*height: initial;*/
     }
 
     .content__products__rest {
